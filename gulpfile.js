@@ -11,7 +11,7 @@ var tsProject = ts.createProject('tsconfig.json'); // get some typescript settin
 gulp.slurped = false;
 
 // run development task
-gulp.task('dev', ['watch', 'serve']);
+gulp.task('dev', ['default', 'watch', 'serve']);
 
 // serve the build dir
 gulp.task('serve', function () {
@@ -19,7 +19,7 @@ gulp.task('serve', function () {
     .pipe(webserver({
       open: true
     }));
-});
+}); 
 
 // watch for changes and run the relevant task
 // updated to watch gulp file via http://codepen.io/ScavaJripter/post/how-to-watch-the-same-gulpfile-js-with-gulp
