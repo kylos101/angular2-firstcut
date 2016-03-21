@@ -40,6 +40,6 @@ export class ClaimantComponent {
     public title = 'Claimant form'           
     public claimant: Claimant = {
         id: 101,
-        name: 'John Doe'    
+        name: 'Kyle Brennan'    
     }    
 }
