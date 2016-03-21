@@ -30,7 +30,7 @@ Details
         <div><label>id: </label>{{claimant.id}}</div>
         <div>
             <label>name: </label>
-            <input [((ngModel))]="claimant.name" placeholder="name">
+            <input [(ngModel)]="claimant.name" placeholder="name">
         </div>
     `
 })
