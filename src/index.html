@@ -10,17 +10,19 @@
     <script src="lib/es6-shim.min.js"></script>
     <script src="lib/angular2-polyfills.js"></script>
     <script src="lib/traceur-runtime.js"></script>
-    <script src="lib/system-csp-production.src.js"></script>
+    <!--<script src="lib/system-csp-production.src.js"></script>-->
+    <script src="lib/system.js"></script>
     <script src="lib/Reflect.js"></script>  
+    <script>
+        System.config({
+			defaultJSExtensions: true			
+        });
+    </script>
     <script src="lib/angular2.js"></script>
     <script src="lib/Rx.js"></script>
     
     <script>
-      System.config({               
-        meta: 'register' 
-      });
-      System.import('app/index')
-            .then(null, console.error.bind(console));
+        System.import('app/index').catch(console.log.bind(console));
     </script>
 
   </body>

@@ -6,7 +6,7 @@
  https://angular.io/docs/ts/latest/quickstart.html
  */
 
-// get things we need, and reference them in the initial Import {} brackets
+// import classes (the things in {}) from libraries (files)
 import {bootstrap} from 'angular2/platform/browser';
 import {ClaimantComponent} from './claimant';
 

@@ -1,1 +1,1 @@
-Add live reload
+Add live reload & install live reload Chrome plugin

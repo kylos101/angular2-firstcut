@@ -28,8 +28,7 @@ gulp.task('watch', function () {
   if (!gulp.slurped)
   {
     gulp.watch('gulpfile.js', ['default']);
-    gulp.watch('tsconfig.json', ['default']);
-    //gulp.watch('node_modules/**/*.js', ['dependencies']);    
+    gulp.watch('tsconfig.json', ['default']);    
     gulp.watch('src/**/*.js', ['js']);
     gulp.watch('src/**/*.ts', ['ts']);
     gulp.watch('src/**/*.html', ['html']);
