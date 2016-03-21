@@ -7,7 +7,6 @@ A learning opportunity, initially put together with [this yeoman Angular2 genera
 * [Use this to bring your node/npm install up to 3.8.2](https://github.com/felixrieseberg/npm-windows-upgrade)
 * npm update
 * npm start
-* [import this into Notepad++ as a language to support TypeScript](https://github.com/kylos101/angular2-firstcut/blob/master/tools/notepad%2B%2B/TypeScript-UserDefinedLanguage.xml)
 
 # Modifications from the generator
 * added a TypeScript build step
@@ -15,3 +14,12 @@ A learning opportunity, initially put together with [this yeoman Angular2 genera
 * updated node packages to support up-to-date TypeScript build (required reference to Typings, d.ts files)
 * added a sample component, claimant
 
+# Update Notepad++
+* [import this into Notepad++ as a language to support TypeScript](https://github.com/kylos101/angular2-firstcut/blob/master/tools/notepad%2B%2B/TypeScript-UserDefinedLanguage.xml)
+* Add some helpful plugins
+** Explorer (after installed, activate once via the Plugins menu)
+** JSTools
+** JSONViewer
+** TortoiseSVN
+** JSLint
+** Task List
