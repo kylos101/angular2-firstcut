@@ -17,9 +17,9 @@ A learning opportunity, initially put together with [this yeoman Angular2 genera
 # Update Notepad++
 * [import this into Notepad++ as a language to support TypeScript](https://github.com/kylos101/angular2-firstcut/blob/master/tools/notepad%2B%2B/TypeScript-UserDefinedLanguage.xml)
 * Add some helpful plugins
-..* Explorer (after installed, activate once via the Plugins menu)
-..* JSTools
-..* JSONViewer
-..* TortoiseSVN
-..* JSLint
-..* Task List
+  * Explorer (after installed, activate once via the Plugins menu)
+  * JSTools
+  * JSONViewer
+  * TortoiseSVN
+  * JSLint
+  * Task List
