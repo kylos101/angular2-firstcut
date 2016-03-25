@@ -5,13 +5,12 @@ A learning opportunity, initially put together with [this yeoman Angular2 genera
 * download the ZIP
 * get Node installed on your machine
 * [Use this to bring your node/npm install up to 3.8.2](https://github.com/felixrieseberg/npm-windows-upgrade)
-* npm update
-* npm start
+* **npm update** (downloads node packages, not included in this git repo)
+* **npm start** (looks in package.json and runs whatever is in the start property)
 
 # Modifications from the generator
 * added a TypeScript build step
 * added a "watch" feature to the gulp build
-* updated node packages to support up-to-date TypeScript build (required reference to Typings, d.ts files)
 * added a sample component, claimant
 
 # Update Notepad++
