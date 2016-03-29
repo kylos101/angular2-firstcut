@@ -1,13 +1,10 @@
 
-///<reference path="../../node_modules/angular2/typings/browser.d.ts"/> 
+///<reference path="../../node_modules/angular2/typings/browser.d.ts"/>
+/// <reference path="./claimant.interface.ts"/>
 
-import {Component} from 'angular2/core'; // i.e. get Component functionality from core.js in the angular2 library
+import {Component} from "angular2/core"; // i.e. get Component functionality from core.js in the angular2 library
 
-// a contract for Claimants
-interface Claimant {
-    id: number;
-    name: string;
-}
+
 
 /*
 Summary
@@ -19,9 +16,9 @@ Summary
 Details
  no "template" property is specified on @Component (which would include HTML), because the underlying component,
   Angular2, has a related template templateUrl (HTML it'll need/use)
-  
+
  the template property must use backsticks, `, not single quotes '.
-*/ 
+*/
 @Component({
     selector: 'claimant',
     template: `
@@ -36,10 +33,10 @@ Details
 })
 
 // This is an example of a component that can be "imported"" by other parts of the application (because we export it)
-export class ClaimantComponent {  
-    public title = 'Claimant form'           
-    public claimant: Claimant = {
+export class ClaimantComponent {
+    title = 'Claimant form'
+    claimant: Claimant = {
         id: 101,
-        name: 'John Doe'    
-    }    
+        name: 'John Doe'
+    }
 }
