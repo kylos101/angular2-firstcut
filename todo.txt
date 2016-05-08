@@ -1,1 +1,9 @@
 Add live reload & install live reload Chrome plugin
+
+Move style to files (which will make components smaller)
+
+Move templates to files? Need to double check.
+
+Linq for JS?
+
+Unit tests?

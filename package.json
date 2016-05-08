@@ -3,26 +3,35 @@
   "version": "0.0.0",
   "scripts": {
     "build": "gulp",
-    "start": "gulp dev"
+    "prestart": "gulp",
+    "start": "concurrently \"lite-server\" \"gulp dev\""
   },
   "dependencies": {
-    "angular2": "^2.0.0-beta.11",
+    "a2-in-memory-web-api": "^0.1.16",
+    "angular2": "2.0.0-beta.16",
+    "bootstrap": "3.3.6",
+    "core-js": "^2.2.2",
+    "es5-shim": "^4.5.8",
     "es6-promise": "^3.1.2",
     "es6-shim": "^0.35.0",
+    "jquery": "^2.2.3",
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
-    "systemjs": "0.19.6",
+    "systemjs": "^0.19.26",
     "traceur": "0.0.102",
     "typescript": "^1.8.9",
-    "zone.js": "0.6.6"
+    "zone.js": "^0.6.10"
   },
   "devDependencies": {
+    "concurrently": "^2.0.0",
+    "del": "^2.2.0",
     "gulp": "3.9.0",
     "gulp-livereload": "^3.8.1",
     "gulp-rename": "1.2.2",
     "gulp-traceur": "0.17.2",
     "gulp-typescript": "^2.12.1",
     "gulp-webserver": "0.9.1",
+    "lite-server": "^2.2.0",
     "merge2": "^1.0.1"
   }
 }
